@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>3D Viewer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" href="css/examples.css" rel="stylesheet" />
+  <script src="js/focus-visible.js" defer></script>
+  <script type="text/javascript">
+    document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
+  <style>
+    .demo model-viewer {
+      background-color: #FFFFFF;
+    }
+  </style>
+</head>
+<body>
+    <div id="demo-container" class="demo">
+    </div>
+      <example-snippet inert-script stamp-to="demo-container" highlight-as="">
+        <template>
+          <script type="module" src="js/model-viewer.min.js"></script>
+      
+            <model-viewer src="models/demo.glb" alt="A 3D model" shadow-intensity="2" camera-controls interaction-prompt="auto" disable-tap disable-pan> </model-viewer>
+        </template>
+      </example-snippet>
+      <!-- Documentation-specific dependencies: -->
+      <script type="module" src="js/dependencies.js">
+      </script>
+      <!-- Loads <model-viewer> on modern browsers: -->
+      <script type="module" src="js/model-viewer.min.js">
+      </script>
+</body>
+</html>
