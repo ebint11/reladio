@@ -1,0 +1,1 @@
+window.globalLoadJsAsset('story_content/5yk9bECfNAU_captions.js', {"captions":[{"langCode":"en-US","data":"WEBVTT%0D%0A%0D%0ANOTE%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.104.35448.0%0D%0A%0D%0A00:00:00.075%20--%3E%2000:00:03.129%0D%0ARoger,%20you%20did%20it!%20The%20breach%20has%20been%20contained.%0D%0A%0D%0A"}]})
